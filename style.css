@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(142, 148, 154, 0.162);
+}
+.trigger{
+    text-align: center;
+}
+.click{
+    display: none;
+}
+/* rgba(134, 133, 133, 0.984) */
+.container {
+  height: 370px;
+  width: 350px;
+  border: 2px solid rgba(136, 133, 133, 0.151);
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(238, 238, 223);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.416),
+    0 6px 20px 0 rgba(0, 0, 0, 0.345);
+}
+.hide{
+    display: none;
+}
+.P {
+  color: rgb(0, 128, 0);
+  font-size: 20px;
+}
+.sign {
+  background-color: rgba(103, 225, 184, 0.765);
+  border: 1px solid rgba(111, 109, 109, 0.804);
+  padding: 9px 25px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(80%);
+  /* background-color: aliceblue; */
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 22px;
+}
+h1 {
+  color: rgb(48, 164, 125);
+}
+.pp {
+  text-align: start;
+  margin-left: 48px;
+  margin-top: 20px;
+  color: rgb(137, 143, 143);
+}
+input {
+  border: 1px solid rgba(78, 76, 76, 0.231);
+  border-radius: 7px;
+  padding: 7px 38px;
+}
+.submit {
+  margin-top: 10px;
+  background-color: green;
+  border: 1px solid rgba(78, 76, 76, 0.231);
+  padding: 7px 70px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.message{
+    margin-bottom: 5px;
+}
